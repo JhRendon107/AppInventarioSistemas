@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JInternalFrameFormInfo">
+  <Properties>
+    <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+      <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+        <LineBorder/>
+      </Border>
+    </Property>
+    <Property name="title" type="java.lang.String" value="Equipos de Escritorio"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <EmptySpace pref="28" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Txt_IdEq" alignment="0" min="-2" pref="131" max="-2" attributes="0"/>
+                                  <Component id="Lbl_IdEq" alignment="0" min="-2" pref="65" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="80" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Lbl_CodigoEq" min="-2" pref="97" max="-2" attributes="0"/>
+                                  <Component id="Txt_CodigoEq" min="-2" pref="187" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Txt_MarcaEq" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                                  <Component id="Lbl_MarcaEq" alignment="0" min="-2" pref="97" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Txt_ModeloEq" min="-2" pref="187" max="-2" attributes="0"/>
+                                  <Component id="Lbl_ModeloEq" min="-2" pref="97" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="0" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Lbl_FechaEq" alignment="0" min="-2" pref="137" max="-2" attributes="0"/>
+                                  <Component id="jDateChooser1" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                                  <Component id="Txt_RamEq" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                                  <Component id="Lbl_RamEq" alignment="0" min="-2" pref="103" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="24" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="Lbl_DiscoduroEq" min="-2" pref="86" max="-2" attributes="0"/>
+                                  <Component id="Txt_DiscoduroEq" min="-2" pref="187" max="-2" attributes="0"/>
+                                  <Component id="Txt_NFacturaEq" min="-2" pref="187" max="-2" attributes="0"/>
+                                  <Component id="Lbl_NFacturaEq" min="-2" pref="86" max="-2" attributes="0"/>
+                                  <Component id="Lbl_OfficeEq" alignment="0" min="-2" pref="72" max="-2" attributes="0"/>
+                                  <Component id="Cmb_OfficeEq" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="1" max="-2" attributes="0">
+                              <Component id="Lbl_OLicenciasEq" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Cmb_OLicenciasEq" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="Txt_ProcesadorEq" min="-2" pref="187" max="-2" attributes="0"/>
+                          <Component id="Lbl_ProveedorEq" min="-2" pref="86" max="-2" attributes="0"/>
+                          <Group type="103" alignment="0" groupAlignment="1" attributes="0">
+                              <Component id="Txt_SerialEq" min="-2" pref="187" max="-2" attributes="0"/>
+                              <Component id="Txt_ProveedorEq" alignment="1" min="-2" pref="187" max="-2" attributes="0"/>
+                              <Group type="103" alignment="1" groupAlignment="0" attributes="0">
+                                  <Component id="Lbl_AntivirusEq" alignment="0" min="-2" pref="72" max="-2" attributes="0"/>
+                                  <Component id="Cmb_AntivirusEq" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="Lbl_SerialEq" min="-2" pref="97" max="-2" attributes="0"/>
+                          <Component id="Lbl_EstadoEq" min="-2" pref="120" max="-2" attributes="0"/>
+                          <Component id="Cmb_EstadoEq" min="-2" pref="187" max="-2" attributes="0"/>
+                          <Component id="Lbl_ProcesadorEq" alignment="0" min="-2" pref="87" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="Lbl_WindowsEq" alignment="0" min="-2" pref="72" max="-2" attributes="0"/>
+                  <Component id="Cmb_WindowsEq" alignment="0" min="-2" pref="187" max="-2" attributes="0"/>
+                  <Component id="Lbl_ObservacionEq" alignment="0" min="-2" pref="97" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" alignment="0" min="-2" pref="611" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="Btn_BuscarEq" min="-2" pref="92" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="Btn_ActualizarEq" min="-2" pref="92" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="Btn_NuevoEq" min="-2" pref="92" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Component id="Btn_IngresarEq" min="-2" pref="92" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="Btn_LimpiarEq" min="-2" pref="92" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="Btn_SalirEq" min="-2" pref="92" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="15" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Lbl_IdEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Lbl_CodigoEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Lbl_SerialEq" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Txt_CodigoEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Txt_IdEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Txt_SerialEq" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Lbl_MarcaEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Lbl_ModeloEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Lbl_ProcesadorEq" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Txt_MarcaEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Txt_ModeloEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Txt_ProcesadorEq" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Lbl_RamEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Lbl_DiscoduroEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Lbl_EstadoEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Txt_RamEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Txt_DiscoduroEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Component id="Cmb_EstadoEq" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Lbl_FechaEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Lbl_NFacturaEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jDateChooser1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="Lbl_ProveedorEq" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Txt_NFacturaEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="Txt_ProveedorEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="Lbl_WindowsEq" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Cmb_WindowsEq" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="Lbl_OfficeEq" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Cmb_OfficeEq" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Component id="Lbl_AntivirusEq" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="Cmb_AntivirusEq" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="Lbl_OLicenciasEq" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="Cmb_OLicenciasEq" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="Lbl_ObservacionEq" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="Btn_ActualizarEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Btn_NuevoEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Btn_IngresarEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Btn_LimpiarEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Btn_SalirEq" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="Btn_BuscarEq" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="26" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="Lbl_FechaEq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Fecha de Compra"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Lbl_NFacturaEq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Nro Factura"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Lbl_ObservacionEq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Observacion"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Txt_CodigoEq">
+    </Component>
+    <Component class="javax.swing.JTextField" name="Txt_ProcesadorEq">
+    </Component>
+    <Component class="javax.swing.JTextField" name="Txt_IdEq">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Lbl_CodigoEq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Codigo Equipo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Lbl_IdEq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Id Equipo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Lbl_SerialEq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Serial"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Txt_SerialEq">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Lbl_MarcaEq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Marca"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Txt_MarcaEq">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Lbl_ModeloEq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Modelo "/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Txt_ModeloEq">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Lbl_RamEq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Memoria Ram"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Txt_RamEq">
+    </Component>
+    <Component class="javax.swing.JTextField" name="Txt_DiscoduroEq">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Lbl_DiscoduroEq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Disco Duro"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Lbl_ProcesadorEq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Procesador"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Txt_ProveedorEq">
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Cmb_EstadoEq">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Seleccione"/>
+            <StringItem index="1" value="Nuevo"/>
+            <StringItem index="2" value="Bueno"/>
+            <StringItem index="3" value="Malo"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Cmb_EstadoEqActionPerformed"/>
+      </Events>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Lbl_ProveedorEq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Proveedor"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Lbl_EstadoEq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Estado del equipo"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="Txt_NFacturaEq">
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser1">
+    </Component>
+    <Component class="javax.swing.JLabel" name="Lbl_WindowsEq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Windows"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Cmb_WindowsEq">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Seleccione"/>
+            <StringItem index="1" value="Nuevo"/>
+            <StringItem index="2" value="Bueno"/>
+            <StringItem index="3" value="Malo"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Lbl_OfficeEq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Office"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Cmb_OfficeEq">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Seleccione"/>
+            <StringItem index="1" value="Nuevo"/>
+            <StringItem index="2" value="Bueno"/>
+            <StringItem index="3" value="Malo"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Lbl_AntivirusEq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Antivirus"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Cmb_AntivirusEq">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Seleccione"/>
+            <StringItem index="1" value="Nuevo"/>
+            <StringItem index="2" value="Bueno"/>
+            <StringItem index="3" value="Malo"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Component class="javax.swing.JLabel" name="Lbl_OLicenciasEq">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Otras Licencias"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JComboBox" name="Cmb_OLicenciasEq">
+      <Properties>
+        <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+          <StringArray count="4">
+            <StringItem index="0" value="Seleccione"/>
+            <StringItem index="1" value="Nuevo"/>
+            <StringItem index="2" value="Bueno"/>
+            <StringItem index="3" value="Malo"/>
+          </StringArray>
+        </Property>
+      </Properties>
+      <AuxValues>
+        <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+      </AuxValues>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="TxA_ObservacionEq">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="Btn_BuscarEq">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Buscar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Btn_BuscarEqActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Btn_ActualizarEq">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Actualizar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Btn_ActualizarEqActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Btn_NuevoEq">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Nuevo"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Btn_NuevoEqActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Btn_IngresarEq">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Ingresar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Btn_IngresarEqActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Btn_LimpiarEq">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Limpiar"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Btn_LimpiarEqActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="Btn_SalirEq">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="0" type="rgb"/>
+        </Property>
+        <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="ff" green="ff" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Salir"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="Btn_SalirEqActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
